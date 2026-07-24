@@ -510,8 +510,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(stylelint@17.11.0(typescript@6.0.3))
       svgo:
-        specifier: ^4.0.0
-        version: 4.0.1
+        specifier: ^4.0.2
+        version: 4.0.2
       typescript:
         specifier: ^6.0.2
         version: 6.0.3
@@ -2347,6 +2347,10 @@ packages:
     resolution: {integrity: sha512-rY0o9A5ECsTQRVhv7tL/OyDpGAoUB4tTvLiW1DSzQGq4bvTPhNw1VpSNjDJc5GFZ2XuyOtSWSVN05qOtcD71qQ==}
     engines: {node: '>= 0.6'}
 
+  '@mapbox/jsonlint-lines-primitives@2.0.3':
+    resolution: {integrity: sha512-0SElaV0uMxEnxzBhhX9WTuPyUeMsAN/SS0i16tjuba4/mio63MG9khjC1a0JAiPGXAwvwm4UfHJURCN7nyudQg==}
+    engines: {node: '>= 22'}
+
   '@mapbox/mapbox-gl-supported@1.5.0':
     resolution: {integrity: sha512-/PT1P6DNf7vjEEiPkVIRJkvibbqWtqnyGaBz3nfRdcxclNSnSdaLU5tfAgcD7I8Yt5i+L19s406YLl1koLnLbg==}
     peerDependencies:
@@ -2535,6 +2539,7 @@ packages:
   '@plotly/mapbox-gl@1.13.4':
     resolution: {integrity: sha512-sR3/Pe5LqT/fhYgp4rT4aSFf1rTsxMbGiH6Hojc7PH36ny5Bn17iVFUjpzycafETURuFbLZUfjODO8LvSI+5zQ==}
     engines: {node: '>=6.4.0'}
+    deprecated: This package is deprecated as of August 2026. plotly.js v4 uses MapLibre for map traces — see https://github.com/maplibre/maplibre-gl-js.
 
   '@plotly/point-cluster@3.1.9':
     resolution: {integrity: sha512-MwaI6g9scKf68Orpr1pHZ597pYx9uP8UEFXLPbsCmuw3a84obwz6pnMXGc90VhgDNeNiLEdlmuK7CPo+5PIxXw==}
@@ -8940,8 +8945,8 @@ packages:
     engines: {node: '>=12.0.0'}
     hasBin: true
 
-  svgo@4.0.1:
-    resolution: {integrity: sha512-XDpWUOPC6FEibaLzjfe0ucaV0YrOjYotGJO1WpF0Zd+n6ZGEQUsSugaoLq9QkEZtAfQIxT42UChcssDVPP3+/w==}
+  svgo@4.0.2:
+    resolution: {integrity: sha512-ekx94z1rRc5LDi6oSUaeRnYhd0UOJxdtQCL2rF8xpWxD3TPAsISWOrxezqGovqS38GRZOdpDfvQe3ts6F7nsng==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -11912,6 +11917,8 @@ snapshots:
 
   '@mapbox/jsonlint-lines-primitives@2.0.2': {}
 
+  '@mapbox/jsonlint-lines-primitives@2.0.3': {}
+
   '@mapbox/mapbox-gl-supported@1.5.0(mapbox-gl@1.13.3)':
     dependencies:
       mapbox-gl: 1.13.3
@@ -13371,7 +13378,7 @@ snapshots:
       semver: 7.8.0
       shiki: 4.0.2
       smol-toml: 1.6.1
-      svgo: 4.0.1
+      svgo: 4.0.2
       tinyclip: 0.1.12
       tinyexec: 1.1.2
       tinyglobby: 0.2.16
@@ -16900,7 +16907,7 @@ snapshots:
     dependencies:
       '@mapbox/geojson-rewind': 0.5.2
       '@mapbox/geojson-types': 1.0.2
-      '@mapbox/jsonlint-lines-primitives': 2.0.2
+      '@mapbox/jsonlint-lines-primitives': 2.0.3
       '@mapbox/mapbox-gl-supported': 1.5.0(mapbox-gl@1.13.3)
       '@mapbox/point-geometry': 0.1.0
       '@mapbox/tiny-sdf': 1.2.5
@@ -18697,7 +18704,7 @@ snapshots:
     dependencies:
       postcss: 8.5.14
       postcss-value-parser: 4.2.0
-      svgo: 4.0.1
+      svgo: 4.0.2
 
   postcss-unique-selectors@7.0.7(postcss@8.5.14):
     dependencies:
@@ -20533,7 +20540,7 @@ snapshots:
       sax: 1.6.0
       svg-pathdata: 6.0.3
 
-  svgo@4.0.1:
+  svgo@4.0.2:
     dependencies:
       commander: 11.1.0
       css-select: 5.2.2
