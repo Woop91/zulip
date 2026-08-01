@@ -66,7 +66,7 @@
     "minimalistic-assert": "^1.0.1",
     "panzoom": "^9.4.2",
     "plotly.js": "^3.0.0",
-    "postcss": "^8.0.3",
+    "postcss": "^8.5.18",
     "postcss-extend-rule": "^4.0.0",
     "postcss-import": "^16.0.0",
     "postcss-loader": "^8.0.0",
